@@ -18,7 +18,8 @@ public class ContactsPageTestCase extends TestBase{
 	HomePage homePage;
 	TestUtil testUtil;
 	ContactsPage contactsPage;
-	
+
+	//constructor to call the base class constructor
 	public ContactsPageTestCase() {
 		super();
 	}
