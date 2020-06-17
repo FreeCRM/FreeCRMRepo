@@ -22,8 +22,9 @@ public class HomePageTestCases extends TestBase{
 
 	
 	public HomePageTestCases() {
-		super(); // super is used to call testbase constructor.
+		super(); // super is used to call test base constructor.
 	}
+	//initialising all the steps to reach home page
 	
 	@BeforeMethod
 	public void setUp() {
