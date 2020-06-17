@@ -11,6 +11,8 @@ public class DealsPage extends TestBase{
 	@FindBy(xpath="//input[@name='cs_keyword']")
 	WebElement keywordTextBox;
 	
+	@FindBy(name="cs_closed")
+	WebElement radio_status_closed;
 	
 	public DealsPage()
 	{
@@ -23,6 +25,11 @@ public class DealsPage extends TestBase{
 	{
 		keywordTextBox.sendKeys("SS");
 		
+	}
+	
+	public void selectStatusClosed()
+	{
+		radio_status_closed.click();
 	}
 	
 }
